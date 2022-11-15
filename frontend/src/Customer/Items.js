@@ -30,7 +30,7 @@ const Items = (props) => {
                 {props.name}
               </h1>
               <h3 id="hprice"> RS: {props.price}</h3>
-              <button className="card-btn" data-testid="atc_b">
+              <button className="card-btn" data-testid="atc_tid">
                 Add to Cart
               </button>
             </div>

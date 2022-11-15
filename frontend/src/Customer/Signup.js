@@ -46,6 +46,7 @@ const Signup = () => {
             value={user.full_name || ""}
             name="full_name"
             onChange={handle}
+            data-testid="fn-tid"
           />
 
           <h5>Email</h5>
@@ -62,6 +63,7 @@ const Signup = () => {
             value={user.phone_number || ""}
             name="phone_number"
             onChange={handle}
+            data-testid="ph-tid"
           />
 
           <h5>Address</h5>
