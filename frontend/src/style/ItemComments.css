@@ -1,0 +1,52 @@
+.single_con {
+  border-bottom: 1px dotted black;
+  /* width: 5in; */
+  /* border-bottom: 0px; */
+  /* margin: 3in; */
+  background-color: rgb(255, 255, 255);
+  padding-left: 10px;
+}
+.comArea {
+  /* padding: 1in; */
+  /* background-color: lightblue; */
+  /* width: 110px; */
+  height: 4in;
+  overflow: auto;
+}
+
+.commentbox {
+  border: 2px solid;
+  /* display: inline-block; */
+  padding: 10px;
+  margin: 1in;
+}
+
+#enter {
+  margin-top: 0.3in;
+  display: block;
+  width: 100%;
+}
+
+#comm {
+  background-color: #ff497c;
+  color: white;
+  font-size: 16px;
+  /* text-transform: uppercase; */
+  transition: 0.5s;
+  /* margin: auto; */
+  margin-top: 0.3in;
+  /* letter-spacing: 4px; */
+  display: block;
+  border: none;
+  padding: 8px;
+  /* width: 100%; */
+}
+
+#comm:hover {
+  transition: 0.5s;
+  background: white;
+  color: #ff497c;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ff497c, 0 0 5px #ff497c, 0 0 5px #ff497c, 0 0 5px #ff497c;
+  /* box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3); */
+}
